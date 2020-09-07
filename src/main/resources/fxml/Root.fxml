@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox minHeight="335.0" minWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.RootController">
+   <children>
+      <MenuBar>
+         <menus>
+            <Menu fx:id="portMenu" mnemonicParsing="false" text="Serial port">
+               <items>
+                  <MenuItem disable="true" mnemonicParsing="false" text="disconnect" />
+                  <SeparatorMenuItem mnemonicParsing="false" />
+               </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Theme">
+              <items>
+                  <CheckMenuItem fx:id="itemThemeLight" mnemonicParsing="false" text="Light" />
+                  <CheckMenuItem fx:id="itemThemeDark" mnemonicParsing="false" selected="true" text="Dark" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Settings">
+               <items>
+                  <MenuItem fx:id="itemSettingsRestore" disable="true" mnemonicParsing="false" text="Restore defualt" />
+               </items></Menu>
+         </menus>
+      </MenuBar>
+      <HBox fx:id="mainContainer" disable="true" VBox.vgrow="ALWAYS">
+         <children>
+            <fx:include fx:id="controlPanel" source="ControlPanel.fxml" HBox.hgrow="NEVER" />
+            <fx:include fx:id="chart" source="Chart.fxml" HBox.hgrow="ALWAYS" />
+         </children></HBox>
+   </children>
+</VBox>

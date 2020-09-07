@@ -1,0 +1,11 @@
+# Syntax Highlighting For KalmanFilter library
+
+# Class and Datatypes (KEYWORD1)
+KalmanFilter	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+compute 		KEYWORD2
+setUncertainty		KEYWORD2
+setVariance		KEYWORD2
+
+# Constants (LITERAL1)

@@ -1,0 +1,39 @@
+.root {
+    -fx-focus-color: rgb(39, 135, 150);
+    -fx-accent: rgb(39, 135, 150);
+}
+
+.menu-bar {
+    -fx-background-color: derive(-fx-base, -5%);
+    -fx-padding: 1 1 1 1;
+    -fx-spacing: 1;
+}
+
+.menu .context-menu {
+    -fx-padding: 1 1 1 1;
+}
+
+.chart .axis-tick-mark, .chart .axis-minor-tick-mark {
+    -fx-stroke: derive(-fx-base, -30%);
+}
+
+.chart .axis:left {
+    -fx-border-color: transparent derive(-fx-base, -30%) transparent transparent;
+}
+
+.chart .axis:bottom {
+    -fx-border-color: derive(-fx-base, -30%) transparent transparent transparent;
+}
+
+.chart-vertical-grid-lines {
+    -fx-stroke: derive(-fx-base, -30%);
+}
+
+.chart-horizontal-grid-lines {
+    -fx-stroke: derive(-fx-base, -30%);
+}
+
+.text-field-error {
+  -fx-text-box-border: red;
+  -fx-focus-color: red;
+}

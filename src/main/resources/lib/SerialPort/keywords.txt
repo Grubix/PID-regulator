@@ -1,0 +1,14 @@
+# Syntax Highlighting For SerialCommunicator library
+
+# Class and Datatypes (KEYWORD1)
+SerialCommunicator	KEYWORD1
+InputFrame 			KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+begin			KEYWORD2
+read			KEYWORD2
+write			KEYWORD2
+getFunctionId		KEYWORD2
+getFunctionData		KEYWORD2
+
+# Constants (LITERAL1)

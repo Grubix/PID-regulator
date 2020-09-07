@@ -1,0 +1,9 @@
+# Syntax Highlighting For HCSR04 library
+
+# Class and Datatypes (KEYWORD1)
+HCSR04	KEYWORD1
+
+# Methods and Functions (KEYWORD2)
+measureDistance		KEYWORD2
+
+# Constants (LITERAL1)
